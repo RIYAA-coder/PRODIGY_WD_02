@@ -1,0 +1,48 @@
+*
+{   
+    font-family: "Times New Roman", Times, serif;
+}
+
+body{
+    background-image: url(background\ image2.jpg);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin: 0;
+    height: 100vh;
+    flex-direction: column;
+    
+}
+
+.stopwatch{
+    background-color: goldenrod;
+    padding: 40px;
+    border-radius: 10px;
+    align-items: top;
+    
+
+}
+
+.timerDisplay{
+    font-size: 60px;
+    font-weight: 600;
+}
+
+.buttons{
+    margin-top: 40px;
+   
+}
+
+.btn{
+    font-size: 20px;
+    background: none;
+    border: none;
+    color: #fff;
+    background-color: red;
+    align-items: center;
+    padding: 20px;
+    margin-inline: 12px;
+    border-radius: 8px;
+    cursor: pointer;
+}
